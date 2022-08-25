@@ -26,8 +26,8 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_select "title", "Contact | Ruby on Rails Tutorial Sample App"
   end
 
-  test "should get new" do
-    get users_new_url
-    assert_response :success
-  end
+  # test "should get new" do
+  #   get users_new_url
+  #   assert_response :success
+  # end
 end
