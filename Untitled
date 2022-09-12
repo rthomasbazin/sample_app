@@ -1,8 +1,0 @@
-edit_account_activation_url(activation_token, ...)
-
-edit_user_url(@user)
-
-user.activation_token
-
-if user.activated?
-
